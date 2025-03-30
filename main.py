@@ -54,7 +54,7 @@ def find_duplicates(source_folder, destination_folder):
         print(f"✅ Total duplicates moved: {duplicates_moved}")
 
 if __name__ == "__main__":
-    source_folder = "./images"  # Change to your folder path
+    source_folder = input("Enter the desired folder path: \n")  # Change to your folder path
     destination_folder = "./duplicates"  # Folder where duplicates will be moved
     
     if not os.path.exists(source_folder):
